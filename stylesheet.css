@@ -63,6 +63,10 @@ section header {
     padding: 0.5rem 1.5rem;
 }
 
+#bnf:hover {
+    opacity: 0.5;
+}
+
 section article {
     display: none;
     padding: 0 1.5rem 1.5rem;

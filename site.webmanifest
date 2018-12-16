@@ -1,0 +1,19 @@
+{
+    "name": "Brave New Faves",
+    "short_name": "Brave New Faves",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#d6aa00",
+    "background_color": "#d6aa00",
+    "display": "standalone"
+}
