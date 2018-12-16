@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i');
+
+body {
+    font-family: 'Source Sans Pro';
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+body > header img {
+    height: 8rem;
+}
+
+body > header div {
+    margin-left: 1rem;
+}
+
+body > header h1 {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+    display: block;
+    width: fit-content;
+    color: #DAAD00;
+}
+
+body > header h2 {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+    display: block;
+    width: fit-content;
+    color: #1CC2E8;
+}
+
+body > header {
+    width: fit-content;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    line-height: 2rem;
+}
+
+section {
+    max-width: 75rem;
+    background: white;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section > a:hover {
+    cursor: pointer;
+}
+
+section header {
+    padding: 0.5rem 1.5rem;
+}
+
+section article {
+    display: none;
+    padding: 0 1.5rem 1.5rem;
+}
+
+section > a > header h1 {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline;
+    color: #1CC2E8;
+}
+
+section > a > header h2 {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 2rem;
+    display: inline;
+    color: #DAAD00;
+}
+
+header > i {
+    float: right;
+    font-size: 2rem;
+    margin: 0.25rem 0;
+    color: black;
+    transition: transform 0.5s;
+}
+
+article img {
+    max-height: 15rem;
+}
+
+article div {
+    margin-left: 1rem;
+    margin-right: 0;
+    width: 100%;
+}
+
+article div header {
+    padding: 0;
+}
+
+article div header div {
+    margin: 0;
+    width: fit-content;
+    float: right;
+    font-size: 3rem;
+    color: black;
+}
+
+article div header div a:hover {
+    opacity: 0.5;
+}
+
+.fa-spotify {
+    font-size: 2.8rem
+}
+
+.fa-google-play {
+    font-size: 2.6rem;
+}
+
+article div ol {
+    columns: 15rem auto;
+    column-fill: balance;
+    width: 100%;
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+article div li {
+    margin-right: 1rem;
+    break-inside: avoid;
+}
+
+article h1 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+article h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+a[href="javascript:;"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@media (max-width: 80rem) {
+    body > header {
+        flex-direction: column;
+    }
+
+    body > header div h1 {
+        margin: 1rem auto 0;
+        text-align: center;
+    }
+
+    body > header div h2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section {
+        border-radius: 0;
+        max-width: 100%;
+    }
+}
