@@ -64,7 +64,7 @@ section header {
     padding: 0.5rem 1.5rem;
 }
 
-#bnf:hover {
+#bnf:hover, #spot:hover, #you:hover {
     opacity: 0.5;
 }
 
