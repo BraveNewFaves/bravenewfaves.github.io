@@ -140,8 +140,7 @@ article div ol, article div ul {
     margin-bottom: 0;
 }
 article div li {
-    margin-right: 0.2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     break-inside: avoid;
 }
 
