@@ -134,6 +134,7 @@ article div header div a:hover {
 article div ol, article div ul {
     columns: 15rem auto;
     column-fill: balance;
+    column-rule: solid grey 1px;
     width: 100%;
     padding-left: 1rem;
     margin-bottom: 0;
