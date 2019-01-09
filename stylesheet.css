@@ -136,11 +136,12 @@ article div ol, article div ul {
     column-fill: balance;
     column-rule: solid grey 1px;
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 0;
     margin-bottom: 0;
 }
 article div li {
-    margin-right: 1rem;
+    margin-right: 0.2rem;
+    margin-left: 1rem;
     break-inside: avoid;
 }
 
